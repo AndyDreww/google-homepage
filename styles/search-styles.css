@@ -1,0 +1,420 @@
+body {
+    min-width: 1700px;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input[type=text] {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 12px 12px 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.15)
+}
+
+header form {
+    display: inline-block;
+    width: 45%;
+    position: relative;
+}
+
+header .search {
+    position: absolute;
+    top: 35px;
+    left: 96%;
+}
+
+header .logo {
+    display: inline-block;
+    margin: 30px 20px 0;
+    width: 90px;
+    float: left;
+}
+
+.right-list {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+li.apps {
+    padding: 10px;
+    box-sizing: content-box;
+    opacity: .5;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+li.apps img {
+    margin-top: 2.5px;
+    width: 20px;
+}
+
+li.apps:hover {
+    background: rgba(0,0,0,.2);
+    cursor: pointer;
+}
+
+.sign-button {
+    border-radius: 10px;
+    font-weight: 400;
+    margin-right: 10px;
+    padding: 9px 23px;
+}
+
+.sign-button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+.menu-items {
+    width: 45%;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.menu-items ul {
+    display: inline-block;
+}
+
+.menu-items li {
+    padding-bottom: 5px;
+}
+
+.menu-items .active {
+    margin-top: 5px;
+    border-bottom: 3px solid #1A73E8;
+}
+
+.menu-items .active i {
+    color: #1A73E8;
+}
+
+.menu-items i {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.menu-items a {
+    color: rgb(95, 99, 104);
+}
+
+.menu-items .active a {
+    color: #1A73E8;
+}
+
+.menu-items a:hover {
+    color: #1A73E8;
+    text-decoration: none;
+}
+
+.menu-right {
+    float: right;
+    line-height: 2.5em;
+}
+
+.page-container {
+    width: 100%;
+    position: relative;
+}
+
+.page-container p {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.small {
+    color: #70757a;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.small a {
+    color: #70757a;
+}
+
+.small i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+/* Search results contains both columns */
+
+.search-results {
+    width: 75%;
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+
+/* Only targets the title links  */
+
+.search-results a p, .search-results a:hover p {
+    text-decoration: none;
+    color: #3C4043;
+    margin-bottom: 5px;
+}
+
+.results-text {
+    margin: 16px;
+    font-size: 14px;
+    color: #70757a;
+}
+
+/* Results box contains first column */
+
+.results-box {
+    width: 60%;
+}
+
+/* The definition box */
+
+.def-box {
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* The rest
+of the results */
+
+.result-link {
+    padding: 10px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+/* related section */
+
+.related {
+    margin: 20px 0;
+    width: 50%;
+}
+
+.related h3 {
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+/* pagination */
+.pagination {
+    margin: 20px auto;
+    width: 50%;
+    clear: both;
+}
+
+.pagination ul {
+    margin-left: 55px;
+    margin-top: -10px;
+}
+
+.pagination li {
+    margin-right: 6px;
+    padding: 0;
+}
+
+.pagination li:last-of-type {
+    margin-left: 40px;
+}
+
+aside {
+    max-width: 400px;
+    width: 30%;
+    position: absolute;
+    top: 30px;
+    right: 20%;
+    margin-right: 10px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+aside img {
+    float: left;
+}
+
+/* SEE MORE OF THE ASIDE IMAGES */
+
+.aside-more {
+    background: rgba(0,0,0,.75);
+    width: 40%;
+    min-width: 150px;
+    position: absolute;
+    right: 0;
+    top: 165px;
+    border-top-left-radius: 10px;
+}
+
+.aside-more:hover {
+    cursor: pointer;
+}
+
+.aside-more i {
+    font-weight: 900px;
+    font-size: 20px;
+}
+
+.aside-more a,
+.aside-more a:visited {
+    color: #fff;
+}
+
+.aside-more:hover a {
+    text-decoration: underline;
+}
+
+/* ANY DIVS INSIDE THE ASIDE */
+
+aside div {
+    clear: both;
+    padding: 10px;
+    position: relative;
+}
+
+aside h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+aside hr {
+    color: rgba(0,0,0,.2);
+}
+
+aside img {
+    width: 50%;
+}
+
+aside .menu-right {
+    float: right;
+    margin-top: -20px;
+}
+
+aside .menu-right a {
+    color: #70757a;
+}
+
+.aside-img-container {
+    width: 100%;
+}
+
+.aside-img {
+    float: left;
+    clear: none;
+    width: 33.33%;
+    margin: 0 auto;
+}
+
+.aside-img img {
+    width: 100%;
+    max-width: 250px;
+    float: none;
+}
+
+.sharing {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.sharing i {
+    font-size: 32px;
+    color: rgba(0,0,0,.6);
+}
+
+.sharing i:hover {
+    cursor: pointer;
+}
+
+.aside-list {
+    font-weight: 900;
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+}
+
+/* -- 
+ACCORDIAN STYLES
+-- */
+
+.accordion-container {
+    margin: 10px 0;
+}
+
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border: 1px solid rgb(223, 225, 229);
+  }
+
+  .accordion i {
+      float: right;
+  }
+
+  .accordion-header {
+    background-color: #fff;
+    color: #444;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid rgb(223, 225, 229);
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: none;
+  }
+
+  /*
+  
+  FOOTER
+
+  */
+
+  footer {
+      clear: both;
+      position: relative;
+      bottom: 0;
+  }
+
+  .footer-container {
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .footer-left {
+      float: none;
+      font-size: 14px;
+  }
