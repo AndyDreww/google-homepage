@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <a href="index.html"><img src="images/sm-logo.png" class="logo" alt="Google logo"></a>
+            <a href="index.md"><img src="images/sm-logo.png" class="logo" alt="Google logo"></a>
             <form>
                 <input type="text">
                 <img src="images/search.svg" class="search">

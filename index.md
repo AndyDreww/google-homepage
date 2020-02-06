@@ -23,7 +23,7 @@
             </div>
         </nav>
         <main>
-            <form class="search-box" action="search.html" method="POST">
+            <form class="search-box" action="search.md" method="POST">
                 <img src="images/logo.png" alt="Google logo">
                 <img src="images/search.svg" class="search"><input type="text" value="HTML" disabled>
                 <div class="btns">
